@@ -1,0 +1,110 @@
+/* R231 G168 B78*/
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    border: 1px solid red;
+    background-color: rgb(231, 168, 78);
+    width: 100vw;
+    height: 150px;
+
+}
+
+.logo {
+    align-self: center;
+    border: 1px solid red;
+
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+}
+
+
+.banner {
+    border: 1px solid  red;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+}
+
+.titleContainer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    bottom: 15%;
+}
+
+.bannerTitle {
+    z-index: 2;
+    border: 1px solid red;
+    width: 15%;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.bannerImg {
+    z-index: 1;
+    width: 100vw;
+}
+
+.bImg {
+    object-fit: cover;
+    width: 100vw;
+    height: 300px;
+}
+
+
+
+.everydayCategories {
+    border: 1px solid red;
+}
+
+.recipesOfTheWeek {
+    border: 1px solid red;
+}
+
+.pageContainer {
+    border: 1px solid red;
+}
+.whereToEat {
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.imageContainer {
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+html {
+    background-color: honeydew;
+}
+
+body {
+    margin: 0px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(231, 168, 78);
+}
